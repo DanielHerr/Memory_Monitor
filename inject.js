@@ -1,5 +1,4 @@
-
-// This code is the intellectual property of Daniel Stephen Herr.
+"use strict"
 
 if (document.querySelector("#memorymonitor")) {
   document.querySelector("#memorymonitor").remove();
