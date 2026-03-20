@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "Memory Monitor",
+	"version": "12.0.3.0",
+	"version_name": "12.0 (2026.3.20, Mv3, Chromium 109+)",
+	"description": "Displays RAM Usage Information",
+	"author": "Daniel Herr",
+	"homepage_url": "https://danielherr.software/Memory_Monitor",
+	"offline_enabled": true,
+	"icons": { "128": "icon.png" },
+	"action": { "default_popup": "popup/popup.html" },
+	"background": { "service_worker": "background/background.js" },
+	"options_page": "Settings/Settings.html",
+	"permissions": [ "system.memory", "storage", "notifications", "system.display", "contextMenus", "offscreen" ],
+	"update_url": "https://packages.danielherr.software/CRX/updates.xml",
+	"minimum_chrome_version": "109",
+	"minimum_opera_version": "95",
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw1a7YAZzUFu57dtfYVjzzJbeCvemIIYXUNA0fVcqjPfRyspYcs2XqDvd7IzRxgXUohqcEKc3E+mfX7h5QE9Sm7T3xEfTlo/ZeBLAnAuRdjTuj23X0Uh4mBlk41+nDMge7b/eyQWFa6v4hjFbuvWXWeKga/R3ojsVE7757BbyYzcjjLfaTbliBJ1Ars++44ruFUXQCQ1Q5Q8IK2WZeqLC3fra2zAq6N9ggb/XmR4J3Q/EjgBhRM1FrCSJEj8tjZO/E5Kr3qLPq5a1uLiZ1wQc5IjlCPp6E9zBNuIZNHjqy/Glvvf8H3RNu7lfq7UXQrfZWtmvRab3CTdw41nFLM1YWwIDAQAB"
+}
