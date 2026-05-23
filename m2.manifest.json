@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 	"name": "Memory Monitor",
-	"version": "12.0.2.0",
-	"version_name": "12.0 (2026.3.20, Mv2, Chromium 56+)",
+	"version": "12.1.2.0",
+	"version_name": "12.1 (2026.5.23, Mv2, Chromium 56+)",
 	"description": "Displays RAM Usage Information",
 	"author": "Daniel Herr",
 	"homepage_url": "https://danielherr.software/Memory_Monitor",
@@ -15,5 +15,5 @@
 	"update_url": "https://packages.danielherr.software/CRX/updates.xml",
 	"minimum_chrome_version": "56",
 	"minimum_opera_version": "43",
-	"key": ""
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgzJEQONzD/VHTi6UtARa4Ms1eNWq+7GFHAh7HsFsqrwiclRRoSFyCXs305o/vFJ5w7xm4M95sgljWeYFQn+wt4iMwrtxAOUvLWPLA098fcc+GdisUCPqLHp978liJpBovjJzpCcTQG9qc0UwFMDUE+vsLcSdy2RbGQnX9oSnxDsgWAfP8TGL7FPMV4SL3UwkWHK4i/DY365Q3uoeBCBzeA0kFXwnhnCmqGqwv/juabdPQbQ+q49uFssY60FeoJPdIsPg2wqFW4hUwDIQ9gHkKrovZZssROnkytFnaBoDZhtMt9QbPfGutjHd+z2A9NndOS+SypzMEOIZPsnBJfHyuwIDAQAB"
 }

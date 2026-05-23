@@ -81,12 +81,12 @@ async function calc_icon_size() {
 		return 16 * possible[possible.length - 1]
 	}
 	let displays = await chrome.system.display.getInfo()
-	if(displays.length == 1 && self.devicePixelRatio) {
-		size = determine_size(devicePixelRatio)
-	} else if(displays[0].modes && displays[0].modes[0]) {
+	if(displays.length && displays[0].modes && displays[0].modes[0]) {
 		for(let display of displays) {
 			size = Math.max(size, determine_size(display.modes[0].deviceScaleFactor))
 		}
+	} else if(displays.length == 1 && self.devicePixelRatio) {
+		size = determine_size(devicePixelRatio)
 	} else if(displays.length == 1 && chrome.offscreen) {
 		if(self.offscreen_loading) {
 			await offscreen_loading
@@ -106,7 +106,7 @@ function resize_icon(size) {
 	canvas.width = size
 	canvas.height = size
 	icon.textAlign = "center"
-	let sizes = { 16: 22, 20: 28, 24: 34, 32: 46, 40: 58 }
+	let sizes = { 16: 22, 20: 28, 24: 34, 32: 44, 40: 58 }
 	if(sizes[size]) {
 		icon.font = sizes[size] + "px Inconsolata"
 	} else {

@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 	"name": "Memory Monitor",
-	"version": "12.0.2.4",
-	"version_name": "12.0 (2026.3.20, Mv2, Opera 56+)",
+	"version": "12.1.2.4",
+	"version_name": "12.1 (2026.5.23, Mv2, Opera 56+)",
 	"description": "Displays RAM Usage Information",
 	"author": "Daniel Herr",
 	"homepage_url": "https://danielherr.software/Memory_Monitor",
